@@ -1,17 +1,52 @@
+body{
+    background-color:#efeee7;
+    font-family: "Georgia,"Times New Roman",Times,serif";
+    color:#333333;
+    margin: 0;
+    padding: 0;
+}
 header{
-    background-color: gray;
-    width: 100%;
+    background-color:#333333;
     text-align: center;
 }
-.container{
-
+h1{
+    color:#eee;
+    font-size: 28px;
+    /* background-color: pink; */
+    margin:0px;
 }
+h2{
+    font-size: 24px;
+    /* background-color: blue; */
+    float: left;
+    margin: 100px 10px 10px 50px;
+    
+} 
+a{
+    color:#d21034 ;
+}
+.container{
+width: 1024px;
+margin: 0 auto;
+/* background-color: green;*/
+} 
 #main-bio{
-
+width: 70%;
+float:left;
+margin-left: 20px;
+/* background-color: red; */
 }
 #contact-info{
+width: 30%;
+line-height: 1.5;
+float:right;
+/* background-color: purple; */
+margin: 0px 50px 300px 100px;
 
 }
 #bio-image{
-    
+    width:200px;
+    float:left;
+    margin: 10px 600px 10px 50px;
+    background-color: #333333;
 }
